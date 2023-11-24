@@ -1,0 +1,120 @@
+*{
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: lightgray;
+}
+
+.contenedor-principal{
+  margin: 0 50px 0 100px;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;  
+}
+
+.contenedor-principal img{
+  border-radius: 15px;
+}
+
+.presentacion h1{
+  margin: 10px;
+  padding: 5px;  
+  color: red;
+  font-weight: bold; 
+}
+
+.presentacion h2{
+  margin: 10px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;  
+  font-weight: bold; 
+}
+
+.presentacion button{
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;     
+}
+
+.barra-nav{
+  top: 100px;
+  position: fixed;  
+  padding: 10px;
+  margin: 10px;
+  flex-direction: row;  
+  justify-content: space-between;
+  
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;  
+}
+
+a{
+  color: red;
+  text-decoration: none;  
+}
+
+li {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+li:hover{
+  background-color: rgba(73, 73, 212, 0.623);
+}
+
+.text-icons {  
+  display: none;
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover .text-icons{
+  display: block;  
+}
+
+button{ 
+  
+  background-color: rgba(73, 73, 212, 0.623);
+  color: rgba(255,0,0,0.85);
+  border: 2px solid black;
+  border-radius: 20px;   
+  font-family:monospace; 
+  font-weight:bold; 
+  font-size:20px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: gray;
+  color: black;
+}
+
+
